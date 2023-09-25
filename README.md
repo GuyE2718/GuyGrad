@@ -38,4 +38,4 @@ output:
 w1 grad: 1
 w2 grad: 0
 ```
-
+![sch](https://github.com/GuyE2718/GuyGrad/assets/121691820/d44c86c7-cbb4-49af-bbc4-5f646c94af91)
