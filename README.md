@@ -18,11 +18,11 @@ auto w2 = std::make_shared<Value>(1.0);
 
 auto b = std::make_shared<Value>(6.8813735870195432);
 
-auto x1w1 = *x1 * w1;
-auto x2w2 = *x2 * w2;
-auto x1w1x2w2 = *x1w1 + x2w2;
+auto x1w1 = x1 * w1;
+auto x2w2 = x2 * w2;
+auto x1w1x2w2 = x1w1 + x2w2;
 
-auto n = *x1w1x2w2 + b;
+auto n = x1w1x2w2 + b;
 
 auto o = n->tanh();
 
